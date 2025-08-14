@@ -1,0 +1,8 @@
+name: Post welcome comment #this is the name which will appear in the actions tab."
+on:
+  pull_request:
+    types: [opened]  #whenever a new pull request is made
+permissions:
+  pull-requests: write #gives permission to write to pull requests.This is needed to creaet the welcome comme
+  #comment
+
